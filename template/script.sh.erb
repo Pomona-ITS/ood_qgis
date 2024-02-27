@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+# Clean the environment
+module purge
+
+# Set working directory to home directory
+cd "${HOME}"
+
+#xfce
+source "<%= session.staged_root.join("desktops", "#{context.desktop}.sh") %>" 
+#
+# Start program
+#
+
+module load qgis/<%= context.pom_qgis_versions %>
+module list
+set -x
+qgis

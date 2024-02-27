@@ -1,0 +1,10 @@
+---
+name: Qgis
+category: Interactive Apps
+subcategory: GUIs
+role: batch_connect
+description: |
+  This app will launch a [Qgis] GUI. You will be able
+  to interact with the Qgis GUI through a VNC session.
+
+  [Qgis]: https://qgis.org
